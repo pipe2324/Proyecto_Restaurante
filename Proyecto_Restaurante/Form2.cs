@@ -43,8 +43,6 @@ namespace Proyecto_Restaurante
 
         private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
-            
-            
             if (comboBox1.Text == "ACCESO")
             {
                 this.Hide();
