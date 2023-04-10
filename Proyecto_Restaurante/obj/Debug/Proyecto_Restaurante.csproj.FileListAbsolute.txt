@@ -1,0 +1,15 @@
+C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\bin\Debug\Proyecto_Restaurante.exe.config
+C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\bin\Debug\Proyecto_Restaurante.exe
+C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\bin\Debug\Proyecto_Restaurante.pdb
+C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.csproj.AssemblyReference.cache
+C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.csproj.SuggestedBindingRedirects.cache
+C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.Properties.Resources.resources
+C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.csproj.GenerateResource.cache
+C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.csproj.CoreCompileInputs.cache
+C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.exe
+C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.pdb
+C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.Form1.resources
+C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.Form2.resources
+C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.Form3.resources
+C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.Form4.resources
+C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.Form5.resources
