@@ -83,6 +83,26 @@ namespace Proyecto_Restaurante.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap factura_comercial {
+            get {
+                object obj = ResourceManager.GetObject("factura_comercial", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Byte[].
+        /// </summary>
+        internal static byte[] factura1 {
+            get {
+                object obj = ResourceManager.GetObject("factura1", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap mesa {
             get {
                 object obj = ResourceManager.GetObject("mesa", resourceCulture);
@@ -116,6 +136,16 @@ namespace Proyecto_Restaurante.Properties {
         internal static System.Drawing.Bitmap telefono {
             get {
                 object obj = ResourceManager.GetObject("telefono", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap tiquete {
+            get {
+                object obj = ResourceManager.GetObject("tiquete", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

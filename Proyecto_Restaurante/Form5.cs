@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Proyecto_Restaurante
 {
-    public partial class Form5 : Form
+    public partial class Form_factura : Form
     {
-        public Form5()
+        public Form_factura()
         {
             InitializeComponent();
         }
@@ -20,7 +20,7 @@ namespace Proyecto_Restaurante
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form Form4 = new Form3();
+            Form Form4 = new Form_clientes();
             Form4.ShowDialog();
 
         }
@@ -28,8 +28,18 @@ namespace Proyecto_Restaurante
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form Form5 = new Form1();
+            Form Form5 = new Form_acceso();
             Form5.ShowDialog();
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Proyecto_Restaurante
 {
-    partial class Form5
+    partial class Form_factura
     {
         /// <summary>
         /// Required designer variable.
@@ -28,226 +28,313 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.lab_id = new System.Windows.Forms.Label();
+            this.lab_nombrecliente = new System.Windows.Forms.Label();
+            this.lab_cedula = new System.Windows.Forms.Label();
+            this.lab_pedido = new System.Windows.Forms.Label();
+            this.lab_formapago = new System.Windows.Forms.Label();
+            this.lab_precioproducto = new System.Windows.Forms.Label();
+            this.lab_pago = new System.Windows.Forms.Label();
+            this.textBox_id = new System.Windows.Forms.TextBox();
+            this.textBox_precioproducto = new System.Windows.Forms.TextBox();
+            this.textBox_formapago = new System.Windows.Forms.TextBox();
+            this.textBox_pedido = new System.Windows.Forms.TextBox();
+            this.textBox_cedula = new System.Windows.Forms.TextBox();
+            this.textBox_cliente = new System.Windows.Forms.TextBox();
+            this.textBox_pago = new System.Windows.Forms.TextBox();
+            this.button_atras = new System.Windows.Forms.Button();
+            this.button_siguiente = new System.Windows.Forms.Button();
+            this.button_guardar = new System.Windows.Forms.Button();
+            this.button_eliminar = new System.Windows.Forms.Button();
+            this.dataGridView_tablafactura = new System.Windows.Forms.DataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_tablafactura)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // label1
+            // lab_id
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(44, 42);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(26, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "ID";
+            this.lab_id.AutoSize = true;
+            this.lab_id.Location = new System.Drawing.Point(44, 42);
+            this.lab_id.Name = "lab_id";
+            this.lab_id.Size = new System.Drawing.Size(26, 20);
+            this.lab_id.TabIndex = 0;
+            this.lab_id.Text = "ID";
             // 
-            // label2
+            // lab_nombrecliente
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(44, 83);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(115, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Nombre cliente";
+            this.lab_nombrecliente.AutoSize = true;
+            this.lab_nombrecliente.Location = new System.Drawing.Point(44, 83);
+            this.lab_nombrecliente.Name = "lab_nombrecliente";
+            this.lab_nombrecliente.Size = new System.Drawing.Size(115, 20);
+            this.lab_nombrecliente.TabIndex = 1;
+            this.lab_nombrecliente.Text = "Nombre cliente";
             // 
-            // label3
+            // lab_cedula
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(44, 127);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 20);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Cedula";
+            this.lab_cedula.AutoSize = true;
+            this.lab_cedula.Location = new System.Drawing.Point(44, 127);
+            this.lab_cedula.Name = "lab_cedula";
+            this.lab_cedula.Size = new System.Drawing.Size(59, 20);
+            this.lab_cedula.TabIndex = 2;
+            this.lab_cedula.Text = "Cedula";
             // 
-            // label4
+            // lab_pedido
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(44, 170);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(58, 20);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Pedido";
+            this.lab_pedido.AutoSize = true;
+            this.lab_pedido.Location = new System.Drawing.Point(44, 170);
+            this.lab_pedido.Name = "lab_pedido";
+            this.lab_pedido.Size = new System.Drawing.Size(58, 20);
+            this.lab_pedido.TabIndex = 3;
+            this.lab_pedido.Text = "Pedido";
             // 
-            // label5
+            // lab_formapago
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(44, 212);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(117, 20);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Forma de pago";
+            this.lab_formapago.AutoSize = true;
+            this.lab_formapago.Location = new System.Drawing.Point(44, 212);
+            this.lab_formapago.Name = "lab_formapago";
+            this.lab_formapago.Size = new System.Drawing.Size(117, 20);
+            this.lab_formapago.TabIndex = 4;
+            this.lab_formapago.Text = "Forma de pago";
             // 
-            // label6
+            // lab_precioproducto
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(44, 252);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(145, 20);
-            this.label6.TabIndex = 5;
-            this.label6.Text = "Precio del producto";
+            this.lab_precioproducto.AutoSize = true;
+            this.lab_precioproducto.Location = new System.Drawing.Point(44, 252);
+            this.lab_precioproducto.Name = "lab_precioproducto";
+            this.lab_precioproducto.Size = new System.Drawing.Size(145, 20);
+            this.lab_precioproducto.TabIndex = 5;
+            this.lab_precioproducto.Text = "Precio del producto";
             // 
-            // label7
+            // lab_pago
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(44, 290);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(46, 20);
-            this.label7.TabIndex = 6;
-            this.label7.Text = "Pago";
+            this.lab_pago.AutoSize = true;
+            this.lab_pago.Location = new System.Drawing.Point(44, 290);
+            this.lab_pago.Name = "lab_pago";
+            this.lab_pago.Size = new System.Drawing.Size(46, 20);
+            this.lab_pago.TabIndex = 6;
+            this.lab_pago.Text = "Pago";
             // 
-            // textBox1
+            // textBox_id
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox1.Location = new System.Drawing.Point(203, 42);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(234, 26);
-            this.textBox1.TabIndex = 7;
+            this.textBox_id.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.textBox_id.Location = new System.Drawing.Point(203, 42);
+            this.textBox_id.Name = "textBox_id";
+            this.textBox_id.Size = new System.Drawing.Size(234, 26);
+            this.textBox_id.TabIndex = 7;
             // 
-            // textBox2
+            // textBox_precioproducto
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox2.Location = new System.Drawing.Point(203, 252);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(234, 26);
-            this.textBox2.TabIndex = 8;
+            this.textBox_precioproducto.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.textBox_precioproducto.Location = new System.Drawing.Point(203, 252);
+            this.textBox_precioproducto.Name = "textBox_precioproducto";
+            this.textBox_precioproducto.Size = new System.Drawing.Size(234, 26);
+            this.textBox_precioproducto.TabIndex = 8;
             // 
-            // textBox3
+            // textBox_formapago
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox3.Location = new System.Drawing.Point(203, 212);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(234, 26);
-            this.textBox3.TabIndex = 9;
+            this.textBox_formapago.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.textBox_formapago.Location = new System.Drawing.Point(203, 212);
+            this.textBox_formapago.Name = "textBox_formapago";
+            this.textBox_formapago.Size = new System.Drawing.Size(234, 26);
+            this.textBox_formapago.TabIndex = 9;
+            this.textBox_formapago.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // textBox4
+            // textBox_pedido
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox4.Location = new System.Drawing.Point(203, 170);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(234, 26);
-            this.textBox4.TabIndex = 10;
+            this.textBox_pedido.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.textBox_pedido.Location = new System.Drawing.Point(203, 170);
+            this.textBox_pedido.Name = "textBox_pedido";
+            this.textBox_pedido.Size = new System.Drawing.Size(234, 26);
+            this.textBox_pedido.TabIndex = 10;
             // 
-            // textBox5
+            // textBox_cedula
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox5.Location = new System.Drawing.Point(203, 127);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(234, 26);
-            this.textBox5.TabIndex = 11;
+            this.textBox_cedula.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.textBox_cedula.Location = new System.Drawing.Point(203, 127);
+            this.textBox_cedula.Name = "textBox_cedula";
+            this.textBox_cedula.Size = new System.Drawing.Size(234, 26);
+            this.textBox_cedula.TabIndex = 11;
             // 
-            // textBox6
+            // textBox_cliente
             // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox6.Location = new System.Drawing.Point(203, 83);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(234, 26);
-            this.textBox6.TabIndex = 12;
+            this.textBox_cliente.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.textBox_cliente.Location = new System.Drawing.Point(203, 83);
+            this.textBox_cliente.Name = "textBox_cliente";
+            this.textBox_cliente.Size = new System.Drawing.Size(234, 26);
+            this.textBox_cliente.TabIndex = 12;
             // 
-            // textBox7
+            // textBox_pago
             // 
-            this.textBox7.BackColor = System.Drawing.SystemColors.InactiveCaption;
-            this.textBox7.Location = new System.Drawing.Point(203, 290);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(234, 26);
-            this.textBox7.TabIndex = 13;
+            this.textBox_pago.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.textBox_pago.Location = new System.Drawing.Point(203, 290);
+            this.textBox_pago.Name = "textBox_pago";
+            this.textBox_pago.Size = new System.Drawing.Size(234, 26);
+            this.textBox_pago.TabIndex = 13;
             // 
-            // button1
+            // button_atras
             // 
-            this.button1.BackColor = System.Drawing.Color.DarkTurquoise;
-            this.button1.Location = new System.Drawing.Point(623, 530);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(96, 44);
-            this.button1.TabIndex = 14;
-            this.button1.Text = "ATRAS";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button_atras.BackColor = System.Drawing.Color.LightCoral;
+            this.button_atras.Location = new System.Drawing.Point(659, 627);
+            this.button_atras.Name = "button_atras";
+            this.button_atras.Size = new System.Drawing.Size(121, 44);
+            this.button_atras.TabIndex = 14;
+            this.button_atras.Text = "ATRAS";
+            this.button_atras.UseVisualStyleBackColor = false;
+            this.button_atras.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // button_siguiente
             // 
-            this.button2.BackColor = System.Drawing.Color.Aquamarine;
-            this.button2.Location = new System.Drawing.Point(777, 530);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(127, 44);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "SIGUIENTE";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button_siguiente.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.button_siguiente.Location = new System.Drawing.Point(813, 627);
+            this.button_siguiente.Name = "button_siguiente";
+            this.button_siguiente.Size = new System.Drawing.Size(121, 44);
+            this.button_siguiente.TabIndex = 15;
+            this.button_siguiente.Text = "SIGUIENTE";
+            this.button_siguiente.UseVisualStyleBackColor = false;
+            this.button_siguiente.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button_guardar
+            // 
+            this.button_guardar.BackColor = System.Drawing.Color.LemonChiffon;
+            this.button_guardar.Location = new System.Drawing.Point(48, 330);
+            this.button_guardar.Name = "button_guardar";
+            this.button_guardar.Size = new System.Drawing.Size(111, 55);
+            this.button_guardar.TabIndex = 17;
+            this.button_guardar.Text = "GUARDAR";
+            this.button_guardar.UseVisualStyleBackColor = false;
+            // 
+            // button_eliminar
+            // 
+            this.button_eliminar.BackColor = System.Drawing.Color.LightGreen;
+            this.button_eliminar.Location = new System.Drawing.Point(191, 330);
+            this.button_eliminar.Name = "button_eliminar";
+            this.button_eliminar.Size = new System.Drawing.Size(118, 55);
+            this.button_eliminar.TabIndex = 18;
+            this.button_eliminar.Text = "ELIMINAR";
+            this.button_eliminar.UseVisualStyleBackColor = false;
+            // 
+            // dataGridView_tablafactura
+            // 
+            this.dataGridView_tablafactura.AllowUserToAddRows = false;
+            this.dataGridView_tablafactura.AllowUserToDeleteRows = false;
+            this.dataGridView_tablafactura.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView_tablafactura.BackgroundColor = System.Drawing.SystemColors.InactiveBorder;
+            this.dataGridView_tablafactura.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dataGridView_tablafactura.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_tablafactura.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2,
+            this.Column3,
+            this.Column4,
+            this.Column5,
+            this.Column6,
+            this.Column7});
+            this.dataGridView_tablafactura.Location = new System.Drawing.Point(48, 410);
+            this.dataGridView_tablafactura.Name = "dataGridView_tablafactura";
+            this.dataGridView_tablafactura.ReadOnly = true;
+            this.dataGridView_tablafactura.RowHeadersVisible = false;
+            this.dataGridView_tablafactura.RowHeadersWidth = 62;
+            this.dataGridView_tablafactura.RowTemplate.Height = 28;
+            this.dataGridView_tablafactura.Size = new System.Drawing.Size(937, 208);
+            this.dataGridView_tablafactura.TabIndex = 19;
+            // 
+            // Column1
+            // 
+            this.Column1.HeaderText = "ID";
+            this.Column1.MinimumWidth = 8;
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
+            // Column2
+            // 
+            this.Column2.HeaderText = "Nombre cliente";
+            this.Column2.MinimumWidth = 8;
+            this.Column2.Name = "Column2";
+            this.Column2.ReadOnly = true;
+            // 
+            // Column3
+            // 
+            this.Column3.HeaderText = "Cedula";
+            this.Column3.MinimumWidth = 8;
+            this.Column3.Name = "Column3";
+            this.Column3.ReadOnly = true;
+            // 
+            // Column4
+            // 
+            this.Column4.HeaderText = "Pedido";
+            this.Column4.MinimumWidth = 8;
+            this.Column4.Name = "Column4";
+            this.Column4.ReadOnly = true;
+            // 
+            // Column5
+            // 
+            this.Column5.HeaderText = "Forma de pago";
+            this.Column5.MinimumWidth = 8;
+            this.Column5.Name = "Column5";
+            this.Column5.ReadOnly = true;
+            // 
+            // Column6
+            // 
+            this.Column6.HeaderText = "Precio del producto";
+            this.Column6.MinimumWidth = 8;
+            this.Column6.Name = "Column6";
+            this.Column6.ReadOnly = true;
+            // 
+            // Column7
+            // 
+            this.Column7.HeaderText = "Pago";
+            this.Column7.MinimumWidth = 8;
+            this.Column7.Name = "Column7";
+            this.Column7.ReadOnly = true;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Proyecto_Restaurante.Properties.Resources.factura;
-            this.pictureBox1.Location = new System.Drawing.Point(544, 48);
+            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox1.Image = global::Proyecto_Restaurante.Properties.Resources.factura_comercial;
+            this.pictureBox1.Location = new System.Drawing.Point(559, 48);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(397, 268);
+            this.pictureBox1.Size = new System.Drawing.Size(385, 268);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabIndex = 20;
             this.pictureBox1.TabStop = false;
             // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.Color.Yellow;
-            this.button3.Location = new System.Drawing.Point(48, 345);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(101, 42);
-            this.button3.TabIndex = 17;
-            this.button3.Text = "GUARDAR";
-            this.button3.UseVisualStyleBackColor = false;
-            // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Tomato;
-            this.button4.Location = new System.Drawing.Point(173, 345);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(102, 42);
-            this.button4.TabIndex = 18;
-            this.button4.Text = "ELIMINAR";
-            this.button4.UseVisualStyleBackColor = false;
-            // 
-            // Form5
+            // Form_factura
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.LightSteelBlue;
-            this.ClientSize = new System.Drawing.Size(1000, 609);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.ClientSize = new System.Drawing.Size(1006, 678);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Name = "Form5";
+            this.Controls.Add(this.dataGridView_tablafactura);
+            this.Controls.Add(this.button_eliminar);
+            this.Controls.Add(this.button_guardar);
+            this.Controls.Add(this.button_siguiente);
+            this.Controls.Add(this.button_atras);
+            this.Controls.Add(this.textBox_pago);
+            this.Controls.Add(this.textBox_cliente);
+            this.Controls.Add(this.textBox_cedula);
+            this.Controls.Add(this.textBox_pedido);
+            this.Controls.Add(this.textBox_formapago);
+            this.Controls.Add(this.textBox_precioproducto);
+            this.Controls.Add(this.textBox_id);
+            this.Controls.Add(this.lab_pago);
+            this.Controls.Add(this.lab_precioproducto);
+            this.Controls.Add(this.lab_formapago);
+            this.Controls.Add(this.lab_pedido);
+            this.Controls.Add(this.lab_cedula);
+            this.Controls.Add(this.lab_nombrecliente);
+            this.Controls.Add(this.lab_id);
+            this.Name = "Form_factura";
             this.Text = "FACTURA";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_tablafactura)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -256,24 +343,32 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label lab_id;
+        private System.Windows.Forms.Label lab_nombrecliente;
+        private System.Windows.Forms.Label lab_cedula;
+        private System.Windows.Forms.Label lab_pedido;
+        private System.Windows.Forms.Label lab_formapago;
+        private System.Windows.Forms.Label lab_precioproducto;
+        private System.Windows.Forms.Label lab_pago;
+        private System.Windows.Forms.TextBox textBox_id;
+        private System.Windows.Forms.TextBox textBox_precioproducto;
+        private System.Windows.Forms.TextBox textBox_formapago;
+        private System.Windows.Forms.TextBox textBox_pedido;
+        private System.Windows.Forms.TextBox textBox_cedula;
+        private System.Windows.Forms.TextBox textBox_cliente;
+        private System.Windows.Forms.TextBox textBox_pago;
+        private System.Windows.Forms.Button button_atras;
+        private System.Windows.Forms.Button button_siguiente;
+        private System.Windows.Forms.Button button_guardar;
+        private System.Windows.Forms.Button button_eliminar;
+        private System.Windows.Forms.DataGridView dataGridView_tablafactura;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
     }
 }

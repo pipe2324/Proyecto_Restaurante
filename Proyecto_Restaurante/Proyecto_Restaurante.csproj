@@ -120,9 +120,13 @@
     <None Include="Resources\cliente.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\factura.avif" />
+    <None Include="Resources\icono.avif" />
     <None Include="Resources\mesa.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\pagina.webp" />
+    <None Include="Resources\tiquet.avif" />
     <None Include="Resources\usuario.png" />
   </ItemGroup>
   <ItemGroup>
@@ -139,6 +143,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\ubica.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tiquete.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\factura-comercial.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
