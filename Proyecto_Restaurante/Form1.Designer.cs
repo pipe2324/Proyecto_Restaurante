@@ -108,7 +108,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.ClientSize = new System.Drawing.Size(1050, 592);
+            this.ClientSize = new System.Drawing.Size(1078, 644);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox_contraseña);
             this.Controls.Add(this.textBox_usuario);
@@ -116,7 +116,10 @@
             this.Controls.Add(this.lab_contraseña);
             this.Controls.Add(this.lab_USUARIO);
             this.Controls.Add(this.lab_restaurante);
+            this.MaximumSize = new System.Drawing.Size(1100, 700);
+            this.MinimumSize = new System.Drawing.Size(1100, 700);
             this.Name = "Form_acceso";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ACCESO";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

@@ -40,23 +40,23 @@
             this.textBox_notificacionpedido = new System.Windows.Forms.TextBox();
             this.textBox_pago = new System.Windows.Forms.TextBox();
             this.textBox_precio = new System.Windows.Forms.TextBox();
-            this.pictureBox_mano = new System.Windows.Forms.PictureBox();
             this.button_guardar = new System.Windows.Forms.Button();
             this.button_eliminar = new System.Windows.Forms.Button();
-            this.dataGridView_tablaclientes = new System.Windows.Forms.DataGridView();
+            this.dataGridView_tablaPagos = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pictureBox_mano = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_tablaPagos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_mano)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_tablaclientes)).BeginInit();
             this.SuspendLayout();
             // 
             // button_atras
             // 
             this.button_atras.BackColor = System.Drawing.Color.LightCoral;
-            this.button_atras.Location = new System.Drawing.Point(617, 584);
+            this.button_atras.Location = new System.Drawing.Point(640, 584);
             this.button_atras.Name = "button_atras";
             this.button_atras.Size = new System.Drawing.Size(115, 47);
             this.button_atras.TabIndex = 0;
@@ -67,7 +67,7 @@
             // button_siguiente
             // 
             this.button_siguiente.BackColor = System.Drawing.Color.LightSkyBlue;
-            this.button_siguiente.Location = new System.Drawing.Point(770, 584);
+            this.button_siguiente.Location = new System.Drawing.Point(813, 585);
             this.button_siguiente.Name = "button_siguiente";
             this.button_siguiente.Size = new System.Drawing.Size(126, 46);
             this.button_siguiente.TabIndex = 1;
@@ -125,7 +125,7 @@
             this.textBox_id.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.textBox_id.Location = new System.Drawing.Point(228, 55);
             this.textBox_id.Name = "textBox_id";
-            this.textBox_id.Size = new System.Drawing.Size(202, 26);
+            this.textBox_id.Size = new System.Drawing.Size(242, 26);
             this.textBox_id.TabIndex = 7;
             // 
             // textBox_horapedido
@@ -133,7 +133,7 @@
             this.textBox_horapedido.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.textBox_horapedido.Location = new System.Drawing.Point(228, 133);
             this.textBox_horapedido.Name = "textBox_horapedido";
-            this.textBox_horapedido.Size = new System.Drawing.Size(202, 26);
+            this.textBox_horapedido.Size = new System.Drawing.Size(242, 26);
             this.textBox_horapedido.TabIndex = 8;
             // 
             // textBox_notificacionpedido
@@ -141,7 +141,7 @@
             this.textBox_notificacionpedido.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.textBox_notificacionpedido.Location = new System.Drawing.Point(228, 94);
             this.textBox_notificacionpedido.Name = "textBox_notificacionpedido";
-            this.textBox_notificacionpedido.Size = new System.Drawing.Size(202, 26);
+            this.textBox_notificacionpedido.Size = new System.Drawing.Size(242, 26);
             this.textBox_notificacionpedido.TabIndex = 9;
             // 
             // textBox_pago
@@ -149,7 +149,7 @@
             this.textBox_pago.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.textBox_pago.Location = new System.Drawing.Point(228, 213);
             this.textBox_pago.Name = "textBox_pago";
-            this.textBox_pago.Size = new System.Drawing.Size(202, 26);
+            this.textBox_pago.Size = new System.Drawing.Size(242, 26);
             this.textBox_pago.TabIndex = 10;
             // 
             // textBox_precio
@@ -157,19 +157,8 @@
             this.textBox_precio.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.textBox_precio.Location = new System.Drawing.Point(228, 173);
             this.textBox_precio.Name = "textBox_precio";
-            this.textBox_precio.Size = new System.Drawing.Size(202, 26);
+            this.textBox_precio.Size = new System.Drawing.Size(242, 26);
             this.textBox_precio.TabIndex = 11;
-            // 
-            // pictureBox_mano
-            // 
-            this.pictureBox_mano.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_mano.Image = global::Proyecto_Restaurante.Properties.Resources.pago;
-            this.pictureBox_mano.Location = new System.Drawing.Point(558, 12);
-            this.pictureBox_mano.Name = "pictureBox_mano";
-            this.pictureBox_mano.Size = new System.Drawing.Size(338, 290);
-            this.pictureBox_mano.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_mano.TabIndex = 12;
-            this.pictureBox_mano.TabStop = false;
             // 
             // button_guardar
             // 
@@ -191,28 +180,28 @@
             this.button_eliminar.Text = "ELIMINAR";
             this.button_eliminar.UseVisualStyleBackColor = false;
             // 
-            // dataGridView_tablaclientes
+            // dataGridView_tablaPagos
             // 
-            this.dataGridView_tablaclientes.AllowUserToAddRows = false;
-            this.dataGridView_tablaclientes.AllowUserToDeleteRows = false;
-            this.dataGridView_tablaclientes.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView_tablaclientes.BackgroundColor = System.Drawing.SystemColors.InactiveBorder;
-            this.dataGridView_tablaclientes.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.dataGridView_tablaclientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView_tablaclientes.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridView_tablaPagos.AllowUserToAddRows = false;
+            this.dataGridView_tablaPagos.AllowUserToDeleteRows = false;
+            this.dataGridView_tablaPagos.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView_tablaPagos.BackgroundColor = System.Drawing.SystemColors.InactiveBorder;
+            this.dataGridView_tablaPagos.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.dataGridView_tablaPagos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView_tablaPagos.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
             this.Column2,
             this.Column3,
             this.Column4,
             this.Column5});
-            this.dataGridView_tablaclientes.Location = new System.Drawing.Point(33, 357);
-            this.dataGridView_tablaclientes.Name = "dataGridView_tablaclientes";
-            this.dataGridView_tablaclientes.ReadOnly = true;
-            this.dataGridView_tablaclientes.RowHeadersVisible = false;
-            this.dataGridView_tablaclientes.RowHeadersWidth = 62;
-            this.dataGridView_tablaclientes.RowTemplate.Height = 28;
-            this.dataGridView_tablaclientes.Size = new System.Drawing.Size(928, 208);
-            this.dataGridView_tablaclientes.TabIndex = 18;
+            this.dataGridView_tablaPagos.Location = new System.Drawing.Point(22, 357);
+            this.dataGridView_tablaPagos.Name = "dataGridView_tablaPagos";
+            this.dataGridView_tablaPagos.ReadOnly = true;
+            this.dataGridView_tablaPagos.RowHeadersVisible = false;
+            this.dataGridView_tablaPagos.RowHeadersWidth = 62;
+            this.dataGridView_tablaPagos.RowTemplate.Height = 28;
+            this.dataGridView_tablaPagos.Size = new System.Drawing.Size(1013, 208);
+            this.dataGridView_tablaPagos.TabIndex = 18;
             // 
             // Column1
             // 
@@ -249,13 +238,24 @@
             this.Column5.Name = "Column5";
             this.Column5.ReadOnly = true;
             // 
+            // pictureBox_mano
+            // 
+            this.pictureBox_mano.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.pictureBox_mano.Image = global::Proyecto_Restaurante.Properties.Resources.pago;
+            this.pictureBox_mano.Location = new System.Drawing.Point(617, 22);
+            this.pictureBox_mano.Name = "pictureBox_mano";
+            this.pictureBox_mano.Size = new System.Drawing.Size(338, 290);
+            this.pictureBox_mano.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_mano.TabIndex = 12;
+            this.pictureBox_mano.TabStop = false;
+            // 
             // Form_pagos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.ClientSize = new System.Drawing.Size(994, 643);
-            this.Controls.Add(this.dataGridView_tablaclientes);
+            this.ClientSize = new System.Drawing.Size(1058, 644);
+            this.Controls.Add(this.dataGridView_tablaPagos);
             this.Controls.Add(this.button_eliminar);
             this.Controls.Add(this.button_guardar);
             this.Controls.Add(this.pictureBox_mano);
@@ -271,10 +271,13 @@
             this.Controls.Add(this.label_id);
             this.Controls.Add(this.button_siguiente);
             this.Controls.Add(this.button_atras);
+            this.MaximumSize = new System.Drawing.Size(1080, 700);
+            this.MinimumSize = new System.Drawing.Size(1080, 700);
             this.Name = "Form_pagos";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PAGOS";
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_tablaPagos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_mano)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView_tablaclientes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -297,7 +300,7 @@
         private System.Windows.Forms.PictureBox pictureBox_mano;
         private System.Windows.Forms.Button button_guardar;
         private System.Windows.Forms.Button button_eliminar;
-        private System.Windows.Forms.DataGridView dataGridView_tablaclientes;
+        private System.Windows.Forms.DataGridView dataGridView_tablaPagos;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;

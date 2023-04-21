@@ -42,7 +42,6 @@
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.button_atras = new System.Windows.Forms.Button();
             this.button_siguiente = new System.Windows.Forms.Button();
-            this.pictureBox_persona = new System.Windows.Forms.PictureBox();
             this.button_guardar = new System.Windows.Forms.Button();
             this.button_eliminar = new System.Windows.Forms.Button();
             this.dataGridView_tablaclientes = new System.Windows.Forms.DataGridView();
@@ -52,8 +51,9 @@
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_persona)).BeginInit();
+            this.pictureBox_persona = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_tablaclientes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_persona)).BeginInit();
             this.SuspendLayout();
             // 
             // label_id
@@ -180,16 +180,6 @@
             this.button_siguiente.UseVisualStyleBackColor = false;
             this.button_siguiente.Click += new System.EventHandler(this.button2_Click);
             // 
-            // pictureBox_persona
-            // 
-            this.pictureBox_persona.Image = global::Proyecto_Restaurante.Properties.Resources.cliente;
-            this.pictureBox_persona.Location = new System.Drawing.Point(540, 29);
-            this.pictureBox_persona.Name = "pictureBox_persona";
-            this.pictureBox_persona.Size = new System.Drawing.Size(368, 272);
-            this.pictureBox_persona.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_persona.TabIndex = 14;
-            this.pictureBox_persona.TabStop = false;
-            // 
             // button_guardar
             // 
             this.button_guardar.BackColor = System.Drawing.Color.LemonChiffon;
@@ -225,12 +215,12 @@
             this.Column4,
             this.Column5,
             this.Column6});
-            this.dataGridView_tablaclientes.Location = new System.Drawing.Point(29, 372);
+            this.dataGridView_tablaclientes.Location = new System.Drawing.Point(29, 382);
             this.dataGridView_tablaclientes.Name = "dataGridView_tablaclientes";
             this.dataGridView_tablaclientes.RowHeadersVisible = false;
             this.dataGridView_tablaclientes.RowHeadersWidth = 62;
             this.dataGridView_tablaclientes.RowTemplate.Height = 28;
-            this.dataGridView_tablaclientes.Size = new System.Drawing.Size(926, 208);
+            this.dataGridView_tablaclientes.Size = new System.Drawing.Size(956, 208);
             this.dataGridView_tablaclientes.TabIndex = 17;
             this.dataGridView_tablaclientes.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
@@ -239,49 +229,53 @@
             this.Column1.HeaderText = "ID";
             this.Column1.MinimumWidth = 8;
             this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
             // 
             // Column2
             // 
             this.Column2.HeaderText = "Nombre cliente";
             this.Column2.MinimumWidth = 8;
             this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
             // 
             // Column3
             // 
             this.Column3.HeaderText = "Cedula";
             this.Column3.MinimumWidth = 8;
             this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
             // 
             // Column4
             // 
             this.Column4.HeaderText = "Ubicacion";
             this.Column4.MinimumWidth = 8;
             this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
             // 
             // Column5
             // 
             this.Column5.HeaderText = "tipo de pedido";
             this.Column5.MinimumWidth = 8;
             this.Column5.Name = "Column5";
-            this.Column5.ReadOnly = true;
             // 
             // Column6
             // 
             this.Column6.HeaderText = "hora del pedido";
             this.Column6.MinimumWidth = 8;
             this.Column6.Name = "Column6";
-            this.Column6.ReadOnly = true;
+            // 
+            // pictureBox_persona
+            // 
+            this.pictureBox_persona.Image = global::Proyecto_Restaurante.Properties.Resources.cliente;
+            this.pictureBox_persona.Location = new System.Drawing.Point(540, 29);
+            this.pictureBox_persona.Name = "pictureBox_persona";
+            this.pictureBox_persona.Size = new System.Drawing.Size(368, 272);
+            this.pictureBox_persona.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_persona.TabIndex = 14;
+            this.pictureBox_persona.TabStop = false;
             // 
             // Form_clientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.ClientSize = new System.Drawing.Size(975, 679);
+            this.ClientSize = new System.Drawing.Size(1018, 694);
             this.Controls.Add(this.dataGridView_tablaclientes);
             this.Controls.Add(this.button_eliminar);
             this.Controls.Add(this.button_guardar);
@@ -300,10 +294,13 @@
             this.Controls.Add(this.label_cedula);
             this.Controls.Add(this.label_nombre_cli);
             this.Controls.Add(this.label_id);
+            this.MaximumSize = new System.Drawing.Size(1040, 750);
+            this.MinimumSize = new System.Drawing.Size(1040, 750);
             this.Name = "Form_clientes";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CLIENTES";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_persona)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_tablaclientes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox_persona)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

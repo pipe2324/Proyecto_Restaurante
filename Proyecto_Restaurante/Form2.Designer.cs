@@ -33,12 +33,12 @@
             this.but_siguiente = new System.Windows.Forms.Button();
             this.label_descripcion = new System.Windows.Forms.Label();
             this.label_informacion = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox_logo = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_logo)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // comboBox_lista
@@ -104,6 +104,16 @@
             this.label_informacion.TabIndex = 5;
             this.label_informacion.Text = "Ubicacion: Corabastos Bodega 86 Local 97-98\r\n\r\n\r\nTelefono de contacto:3118680724";
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Proyecto_Restaurante.Properties.Resources.ubica;
+            this.pictureBox3.Location = new System.Drawing.Point(45, 529);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(63, 65);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 7;
+            this.pictureBox3.TabStop = false;
+            // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Proyecto_Restaurante.Properties.Resources.telefono;
@@ -125,22 +135,12 @@
             this.pictureBox_logo.TabIndex = 3;
             this.pictureBox_logo.TabStop = false;
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Proyecto_Restaurante.Properties.Resources.ubica;
-            this.pictureBox3.Location = new System.Drawing.Point(45, 529);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(63, 65);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 7;
-            this.pictureBox3.TabStop = false;
-            // 
             // Form_seleccione
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.ClientSize = new System.Drawing.Size(1081, 693);
+            this.ClientSize = new System.Drawing.Size(1078, 694);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label_informacion);
@@ -149,12 +149,15 @@
             this.Controls.Add(this.but_siguiente);
             this.Controls.Add(this.but_atras);
             this.Controls.Add(this.comboBox_lista);
+            this.MaximumSize = new System.Drawing.Size(1100, 750);
+            this.MinimumSize = new System.Drawing.Size(1100, 750);
             this.Name = "Form_seleccione";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SELECCIONE HACIA DONDE QUIERA IR";
             this.Load += new System.EventHandler(this.Form2_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_logo)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
