@@ -1,6 +1,6 @@
 ﻿namespace Proyecto_Restaurante
 {
-    partial class Form_pagos
+    partial class Pagos
     {
         /// <summary>
         /// Required designer variable.
@@ -35,11 +35,11 @@
             this.label_horapedido = new System.Windows.Forms.Label();
             this.label_precio = new System.Windows.Forms.Label();
             this.label_pago = new System.Windows.Forms.Label();
-            this.textBox_id = new System.Windows.Forms.TextBox();
-            this.textBox_horapedido = new System.Windows.Forms.TextBox();
-            this.textBox_notificacionpedido = new System.Windows.Forms.TextBox();
-            this.textBox_pago = new System.Windows.Forms.TextBox();
-            this.textBox_precio = new System.Windows.Forms.TextBox();
+            this.idcliente = new System.Windows.Forms.TextBox();
+            this.horapedidocliente = new System.Windows.Forms.TextBox();
+            this.notificacioncliente = new System.Windows.Forms.TextBox();
+            this.pagoproducto = new System.Windows.Forms.TextBox();
+            this.precioproducto = new System.Windows.Forms.TextBox();
             this.button_guardar = new System.Windows.Forms.Button();
             this.button_eliminar = new System.Windows.Forms.Button();
             this.dataGridView_tablaPagos = new System.Windows.Forms.DataGridView();
@@ -120,45 +120,45 @@
             this.label_pago.TabIndex = 6;
             this.label_pago.Text = "Pago";
             // 
-            // textBox_id
+            // idcliente
             // 
-            this.textBox_id.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox_id.Location = new System.Drawing.Point(228, 55);
-            this.textBox_id.Name = "textBox_id";
-            this.textBox_id.Size = new System.Drawing.Size(242, 26);
-            this.textBox_id.TabIndex = 7;
+            this.idcliente.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.idcliente.Location = new System.Drawing.Point(228, 55);
+            this.idcliente.Name = "idcliente";
+            this.idcliente.Size = new System.Drawing.Size(242, 26);
+            this.idcliente.TabIndex = 7;
             // 
-            // textBox_horapedido
+            // horapedidocliente
             // 
-            this.textBox_horapedido.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox_horapedido.Location = new System.Drawing.Point(228, 133);
-            this.textBox_horapedido.Name = "textBox_horapedido";
-            this.textBox_horapedido.Size = new System.Drawing.Size(242, 26);
-            this.textBox_horapedido.TabIndex = 8;
+            this.horapedidocliente.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.horapedidocliente.Location = new System.Drawing.Point(228, 133);
+            this.horapedidocliente.Name = "horapedidocliente";
+            this.horapedidocliente.Size = new System.Drawing.Size(242, 26);
+            this.horapedidocliente.TabIndex = 8;
             // 
-            // textBox_notificacionpedido
+            // notificacioncliente
             // 
-            this.textBox_notificacionpedido.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox_notificacionpedido.Location = new System.Drawing.Point(228, 94);
-            this.textBox_notificacionpedido.Name = "textBox_notificacionpedido";
-            this.textBox_notificacionpedido.Size = new System.Drawing.Size(242, 26);
-            this.textBox_notificacionpedido.TabIndex = 9;
+            this.notificacioncliente.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.notificacioncliente.Location = new System.Drawing.Point(228, 94);
+            this.notificacioncliente.Name = "notificacioncliente";
+            this.notificacioncliente.Size = new System.Drawing.Size(242, 26);
+            this.notificacioncliente.TabIndex = 9;
             // 
-            // textBox_pago
+            // pagoproducto
             // 
-            this.textBox_pago.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox_pago.Location = new System.Drawing.Point(228, 213);
-            this.textBox_pago.Name = "textBox_pago";
-            this.textBox_pago.Size = new System.Drawing.Size(242, 26);
-            this.textBox_pago.TabIndex = 10;
+            this.pagoproducto.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.pagoproducto.Location = new System.Drawing.Point(228, 213);
+            this.pagoproducto.Name = "pagoproducto";
+            this.pagoproducto.Size = new System.Drawing.Size(242, 26);
+            this.pagoproducto.TabIndex = 10;
             // 
-            // textBox_precio
+            // precioproducto
             // 
-            this.textBox_precio.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox_precio.Location = new System.Drawing.Point(228, 173);
-            this.textBox_precio.Name = "textBox_precio";
-            this.textBox_precio.Size = new System.Drawing.Size(242, 26);
-            this.textBox_precio.TabIndex = 11;
+            this.precioproducto.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.precioproducto.Location = new System.Drawing.Point(228, 173);
+            this.precioproducto.Name = "precioproducto";
+            this.precioproducto.Size = new System.Drawing.Size(242, 26);
+            this.precioproducto.TabIndex = 11;
             // 
             // button_guardar
             // 
@@ -169,6 +169,7 @@
             this.button_guardar.TabIndex = 13;
             this.button_guardar.Text = "GUARDAR";
             this.button_guardar.UseVisualStyleBackColor = false;
+            this.button_guardar.Click += new System.EventHandler(this.button_guardar_Click);
             // 
             // button_eliminar
             // 
@@ -249,7 +250,7 @@
             this.pictureBox_mano.TabIndex = 12;
             this.pictureBox_mano.TabStop = false;
             // 
-            // Form_pagos
+            // Pagos
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -259,11 +260,11 @@
             this.Controls.Add(this.button_eliminar);
             this.Controls.Add(this.button_guardar);
             this.Controls.Add(this.pictureBox_mano);
-            this.Controls.Add(this.textBox_precio);
-            this.Controls.Add(this.textBox_pago);
-            this.Controls.Add(this.textBox_notificacionpedido);
-            this.Controls.Add(this.textBox_horapedido);
-            this.Controls.Add(this.textBox_id);
+            this.Controls.Add(this.precioproducto);
+            this.Controls.Add(this.pagoproducto);
+            this.Controls.Add(this.notificacioncliente);
+            this.Controls.Add(this.horapedidocliente);
+            this.Controls.Add(this.idcliente);
             this.Controls.Add(this.label_pago);
             this.Controls.Add(this.label_precio);
             this.Controls.Add(this.label_horapedido);
@@ -273,7 +274,7 @@
             this.Controls.Add(this.button_atras);
             this.MaximumSize = new System.Drawing.Size(1080, 700);
             this.MinimumSize = new System.Drawing.Size(1080, 700);
-            this.Name = "Form_pagos";
+            this.Name = "Pagos";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PAGOS";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_tablaPagos)).EndInit();
@@ -292,11 +293,11 @@
         private System.Windows.Forms.Label label_horapedido;
         private System.Windows.Forms.Label label_precio;
         private System.Windows.Forms.Label label_pago;
-        private System.Windows.Forms.TextBox textBox_id;
-        private System.Windows.Forms.TextBox textBox_horapedido;
-        private System.Windows.Forms.TextBox textBox_notificacionpedido;
-        private System.Windows.Forms.TextBox textBox_pago;
-        private System.Windows.Forms.TextBox textBox_precio;
+        private System.Windows.Forms.TextBox idcliente;
+        private System.Windows.Forms.TextBox horapedidocliente;
+        private System.Windows.Forms.TextBox notificacioncliente;
+        private System.Windows.Forms.TextBox pagoproducto;
+        private System.Windows.Forms.TextBox precioproducto;
         private System.Windows.Forms.PictureBox pictureBox_mano;
         private System.Windows.Forms.Button button_guardar;
         private System.Windows.Forms.Button button_eliminar;

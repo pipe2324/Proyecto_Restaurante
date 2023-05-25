@@ -20,7 +20,7 @@ namespace Proyecto_Restaurante
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form Form4 = new Form_clientes();
+            Form Form4 = new Cliente();
             Form4.ShowDialog();
 
         }
@@ -28,7 +28,7 @@ namespace Proyecto_Restaurante
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form Form5 = new Form_acceso();
+            Form Form5 = new Usuario();
             Form5.ShowDialog();
         }
 

@@ -8,8 +8,8 @@ C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug
 C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.csproj.CoreCompileInputs.cache
 C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.exe
 C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.pdb
-C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.Form_acceso.resources
 C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.Form_seleccione.resources
-C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.Form_clientes.resources
-C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.Form_pagos.resources
 C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.Form_factura.resources
+C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.Cliente.resources
+C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.Usuario.resources
+C:\Users\andres\source\repos\Proyecto_Restaurante\Proyecto_Restaurante\obj\Debug\Proyecto_Restaurante.Pagos.resources

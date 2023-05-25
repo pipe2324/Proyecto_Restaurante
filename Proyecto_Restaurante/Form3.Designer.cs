@@ -1,6 +1,6 @@
 ﻿namespace Proyecto_Restaurante
 {
-    partial class Form_clientes
+    partial class Cliente
     {
         /// <summary>
         /// Required designer variable.
@@ -28,18 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label_id = new System.Windows.Forms.Label();
-            this.label_nombre_cli = new System.Windows.Forms.Label();
-            this.label_cedula = new System.Windows.Forms.Label();
-            this.label_ubica = new System.Windows.Forms.Label();
-            this.label_tipodepedido = new System.Windows.Forms.Label();
-            this.label_hora = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.ID = new System.Windows.Forms.Label();
+            this.Nombre_cliente = new System.Windows.Forms.Label();
+            this.Cedula = new System.Windows.Forms.Label();
+            this.Ubicacion = new System.Windows.Forms.Label();
+            this.Tipo_de_pedido = new System.Windows.Forms.Label();
+            this.Hora_del_pedido = new System.Windows.Forms.Label();
+            this.IdentificacionCliente = new System.Windows.Forms.TextBox();
+            this.NombreCliente = new System.Windows.Forms.TextBox();
+            this.CedulaCliente = new System.Windows.Forms.TextBox();
+            this.TipodepedidoCliente = new System.Windows.Forms.TextBox();
+            this.HoradelpedidoCliente = new System.Windows.Forms.TextBox();
+            this.UbicacionCliente = new System.Windows.Forms.TextBox();
             this.button_atras = new System.Windows.Forms.Button();
             this.button_siguiente = new System.Windows.Forms.Button();
             this.button_guardar = new System.Windows.Forms.Button();
@@ -56,107 +56,108 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_persona)).BeginInit();
             this.SuspendLayout();
             // 
-            // label_id
+            // ID
             // 
-            this.label_id.AutoSize = true;
-            this.label_id.Location = new System.Drawing.Point(33, 29);
-            this.label_id.Name = "label_id";
-            this.label_id.Size = new System.Drawing.Size(26, 20);
-            this.label_id.TabIndex = 0;
-            this.label_id.Text = "ID";
+            this.ID.AutoSize = true;
+            this.ID.Location = new System.Drawing.Point(33, 29);
+            this.ID.Name = "ID";
+            this.ID.Size = new System.Drawing.Size(26, 20);
+            this.ID.TabIndex = 0;
+            this.ID.Text = "ID";
             // 
-            // label_nombre_cli
+            // Nombre_cliente
             // 
-            this.label_nombre_cli.AutoSize = true;
-            this.label_nombre_cli.Location = new System.Drawing.Point(33, 74);
-            this.label_nombre_cli.Name = "label_nombre_cli";
-            this.label_nombre_cli.Size = new System.Drawing.Size(115, 20);
-            this.label_nombre_cli.TabIndex = 1;
-            this.label_nombre_cli.Text = "Nombre cliente";
+            this.Nombre_cliente.AutoSize = true;
+            this.Nombre_cliente.Location = new System.Drawing.Point(33, 74);
+            this.Nombre_cliente.Name = "Nombre_cliente";
+            this.Nombre_cliente.Size = new System.Drawing.Size(115, 20);
+            this.Nombre_cliente.TabIndex = 1;
+            this.Nombre_cliente.Text = "Nombre cliente";
             // 
-            // label_cedula
+            // Cedula
             // 
-            this.label_cedula.AutoSize = true;
-            this.label_cedula.Location = new System.Drawing.Point(33, 118);
-            this.label_cedula.Name = "label_cedula";
-            this.label_cedula.Size = new System.Drawing.Size(59, 20);
-            this.label_cedula.TabIndex = 2;
-            this.label_cedula.Text = "Cedula";
+            this.Cedula.AutoSize = true;
+            this.Cedula.Location = new System.Drawing.Point(33, 118);
+            this.Cedula.Name = "Cedula";
+            this.Cedula.Size = new System.Drawing.Size(59, 20);
+            this.Cedula.TabIndex = 2;
+            this.Cedula.Text = "Cedula";
             // 
-            // label_ubica
+            // Ubicacion
             // 
-            this.label_ubica.AutoSize = true;
-            this.label_ubica.Location = new System.Drawing.Point(33, 162);
-            this.label_ubica.Name = "label_ubica";
-            this.label_ubica.Size = new System.Drawing.Size(79, 20);
-            this.label_ubica.TabIndex = 3;
-            this.label_ubica.Text = "Ubicacion";
+            this.Ubicacion.AutoSize = true;
+            this.Ubicacion.Location = new System.Drawing.Point(33, 162);
+            this.Ubicacion.Name = "Ubicacion";
+            this.Ubicacion.Size = new System.Drawing.Size(79, 20);
+            this.Ubicacion.TabIndex = 3;
+            this.Ubicacion.Text = "Ubicacion";
             // 
-            // label_tipodepedido
+            // Tipo_de_pedido
             // 
-            this.label_tipodepedido.AutoSize = true;
-            this.label_tipodepedido.Location = new System.Drawing.Point(33, 199);
-            this.label_tipodepedido.Name = "label_tipodepedido";
-            this.label_tipodepedido.Size = new System.Drawing.Size(113, 20);
-            this.label_tipodepedido.TabIndex = 4;
-            this.label_tipodepedido.Text = "Tipo de pedido";
+            this.Tipo_de_pedido.AutoSize = true;
+            this.Tipo_de_pedido.Location = new System.Drawing.Point(33, 199);
+            this.Tipo_de_pedido.Name = "Tipo_de_pedido";
+            this.Tipo_de_pedido.Size = new System.Drawing.Size(113, 20);
+            this.Tipo_de_pedido.TabIndex = 4;
+            this.Tipo_de_pedido.Text = "Tipo de pedido";
             // 
-            // label_hora
+            // Hora_del_pedido
             // 
-            this.label_hora.AutoSize = true;
-            this.label_hora.Location = new System.Drawing.Point(33, 237);
-            this.label_hora.Name = "label_hora";
-            this.label_hora.Size = new System.Drawing.Size(121, 20);
-            this.label_hora.TabIndex = 5;
-            this.label_hora.Text = "Hora del pedido";
+            this.Hora_del_pedido.AutoSize = true;
+            this.Hora_del_pedido.Location = new System.Drawing.Point(33, 237);
+            this.Hora_del_pedido.Name = "Hora_del_pedido";
+            this.Hora_del_pedido.Size = new System.Drawing.Size(121, 20);
+            this.Hora_del_pedido.TabIndex = 5;
+            this.Hora_del_pedido.Text = "Hora del pedido";
             // 
-            // textBox1
+            // IdentificacionCliente
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox1.Location = new System.Drawing.Point(170, 29);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(226, 26);
-            this.textBox1.TabIndex = 6;
+            this.IdentificacionCliente.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.IdentificacionCliente.Location = new System.Drawing.Point(170, 29);
+            this.IdentificacionCliente.Name = "IdentificacionCliente";
+            this.IdentificacionCliente.Size = new System.Drawing.Size(226, 26);
+            this.IdentificacionCliente.TabIndex = 6;
             // 
-            // textBox2
+            // NombreCliente
             // 
-            this.textBox2.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox2.Location = new System.Drawing.Point(170, 74);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(226, 26);
-            this.textBox2.TabIndex = 7;
+            this.NombreCliente.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.NombreCliente.Location = new System.Drawing.Point(170, 74);
+            this.NombreCliente.Name = "NombreCliente";
+            this.NombreCliente.Size = new System.Drawing.Size(226, 26);
+            this.NombreCliente.TabIndex = 7;
             // 
-            // textBox3
+            // CedulaCliente
             // 
-            this.textBox3.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox3.Location = new System.Drawing.Point(170, 115);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(226, 26);
-            this.textBox3.TabIndex = 8;
+            this.CedulaCliente.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.CedulaCliente.Location = new System.Drawing.Point(170, 115);
+            this.CedulaCliente.Name = "CedulaCliente";
+            this.CedulaCliente.Size = new System.Drawing.Size(226, 26);
+            this.CedulaCliente.TabIndex = 8;
+            this.CedulaCliente.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
-            // textBox4
+            // TipodepedidoCliente
             // 
-            this.textBox4.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox4.Location = new System.Drawing.Point(170, 199);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(226, 26);
-            this.textBox4.TabIndex = 9;
+            this.TipodepedidoCliente.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.TipodepedidoCliente.Location = new System.Drawing.Point(170, 199);
+            this.TipodepedidoCliente.Name = "TipodepedidoCliente";
+            this.TipodepedidoCliente.Size = new System.Drawing.Size(226, 26);
+            this.TipodepedidoCliente.TabIndex = 9;
             // 
-            // textBox5
+            // HoradelpedidoCliente
             // 
-            this.textBox5.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox5.Location = new System.Drawing.Point(170, 237);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(226, 26);
-            this.textBox5.TabIndex = 10;
+            this.HoradelpedidoCliente.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.HoradelpedidoCliente.Location = new System.Drawing.Point(170, 237);
+            this.HoradelpedidoCliente.Name = "HoradelpedidoCliente";
+            this.HoradelpedidoCliente.Size = new System.Drawing.Size(226, 26);
+            this.HoradelpedidoCliente.TabIndex = 10;
             // 
-            // textBox6
+            // UbicacionCliente
             // 
-            this.textBox6.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox6.Location = new System.Drawing.Point(170, 162);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(226, 26);
-            this.textBox6.TabIndex = 11;
+            this.UbicacionCliente.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.UbicacionCliente.Location = new System.Drawing.Point(170, 162);
+            this.UbicacionCliente.Name = "UbicacionCliente";
+            this.UbicacionCliente.Size = new System.Drawing.Size(226, 26);
+            this.UbicacionCliente.TabIndex = 11;
             // 
             // button_atras
             // 
@@ -189,6 +190,7 @@
             this.button_guardar.TabIndex = 15;
             this.button_guardar.Text = "GUARDAR";
             this.button_guardar.UseVisualStyleBackColor = false;
+            this.button_guardar.Click += new System.EventHandler(this.button_guardar_Click);
             // 
             // button_eliminar
             // 
@@ -270,7 +272,7 @@
             this.pictureBox_persona.TabIndex = 14;
             this.pictureBox_persona.TabStop = false;
             // 
-            // Form_clientes
+            // Cliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -282,21 +284,21 @@
             this.Controls.Add(this.pictureBox_persona);
             this.Controls.Add(this.button_siguiente);
             this.Controls.Add(this.button_atras);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label_hora);
-            this.Controls.Add(this.label_tipodepedido);
-            this.Controls.Add(this.label_ubica);
-            this.Controls.Add(this.label_cedula);
-            this.Controls.Add(this.label_nombre_cli);
-            this.Controls.Add(this.label_id);
+            this.Controls.Add(this.UbicacionCliente);
+            this.Controls.Add(this.HoradelpedidoCliente);
+            this.Controls.Add(this.TipodepedidoCliente);
+            this.Controls.Add(this.CedulaCliente);
+            this.Controls.Add(this.NombreCliente);
+            this.Controls.Add(this.IdentificacionCliente);
+            this.Controls.Add(this.Hora_del_pedido);
+            this.Controls.Add(this.Tipo_de_pedido);
+            this.Controls.Add(this.Ubicacion);
+            this.Controls.Add(this.Cedula);
+            this.Controls.Add(this.Nombre_cliente);
+            this.Controls.Add(this.ID);
             this.MaximumSize = new System.Drawing.Size(1040, 750);
             this.MinimumSize = new System.Drawing.Size(1040, 750);
-            this.Name = "Form_clientes";
+            this.Name = "Cliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "CLIENTES";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView_tablaclientes)).EndInit();
@@ -308,18 +310,18 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label_id;
-        private System.Windows.Forms.Label label_nombre_cli;
-        private System.Windows.Forms.Label label_cedula;
-        private System.Windows.Forms.Label label_ubica;
-        private System.Windows.Forms.Label label_tipodepedido;
-        private System.Windows.Forms.Label label_hora;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label ID;
+        private System.Windows.Forms.Label Nombre_cliente;
+        private System.Windows.Forms.Label Cedula;
+        private System.Windows.Forms.Label Ubicacion;
+        private System.Windows.Forms.Label Tipo_de_pedido;
+        private System.Windows.Forms.Label Hora_del_pedido;
+        private System.Windows.Forms.TextBox IdentificacionCliente;
+        private System.Windows.Forms.TextBox NombreCliente;
+        private System.Windows.Forms.TextBox CedulaCliente;
+        private System.Windows.Forms.TextBox TipodepedidoCliente;
+        private System.Windows.Forms.TextBox HoradelpedidoCliente;
+        private System.Windows.Forms.TextBox UbicacionCliente;
         private System.Windows.Forms.Button button_atras;
         private System.Windows.Forms.Button button_siguiente;
         private System.Windows.Forms.PictureBox pictureBox_persona;

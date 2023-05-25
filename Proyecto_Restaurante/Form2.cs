@@ -30,14 +30,14 @@ namespace Proyecto_Restaurante
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form Form2 = new Form_clientes();
+            Form Form2 = new Cliente();
             Form2.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
-            Form Form2 = new Form_acceso();
+            Form Form2 = new Usuario();
             Form2.ShowDialog();
         }
 
@@ -46,18 +46,18 @@ namespace Proyecto_Restaurante
             if (comboBox_lista.Text == "ACCESO")
             {
                 this.Hide();
-                Form Form1 = new Form_acceso();
+                Form Form1 = new Usuario();
                 Form1.ShowDialog();
             }
             else if(comboBox_lista.Text== "CLIENTES")
             {
                 this.Hide();
-                Form Form3 = new Form_clientes();
+                Form Form3 = new Cliente();
                 Form3.ShowDialog();
             }else if (comboBox_lista.Text == "PAGOS")
             {
                 this.Hide();
-                Form Form4 = new Form_pagos();
+                Form Form4 = new Pagos();
                 Form4.ShowDialog();
             }else if(comboBox_lista.Text== "FACTURA")
             {

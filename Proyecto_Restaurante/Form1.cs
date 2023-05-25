@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -10,9 +11,9 @@ using System.Windows.Forms;
 
 namespace Proyecto_Restaurante
 {
-    public partial class Form_acceso : Form
+    public partial class Usuario : Form
     {
-        public Form_acceso()
+        public Usuario()
         {
             InitializeComponent();
         }
@@ -24,6 +25,7 @@ namespace Proyecto_Restaurante
 
         private void button1_Click(object sender, EventArgs e)
         {
+            
             this.Hide();
             Form Proyecto_Restaurante = new Form_seleccione();
             Proyecto_Restaurante.ShowDialog();

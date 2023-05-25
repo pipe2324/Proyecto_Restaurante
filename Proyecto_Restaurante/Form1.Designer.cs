@@ -1,6 +1,6 @@
 ﻿namespace Proyecto_Restaurante
 {
-    partial class Form_acceso
+    partial class Usuario
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -30,10 +30,10 @@
         {
             this.lab_restaurante = new System.Windows.Forms.Label();
             this.lab_USUARIO = new System.Windows.Forms.Label();
-            this.lab_contraseña = new System.Windows.Forms.Label();
+            this.lab_CONTRASEÑA = new System.Windows.Forms.Label();
             this.but_ingresar = new System.Windows.Forms.Button();
-            this.textBox_usuario = new System.Windows.Forms.TextBox();
-            this.textBox_contraseña = new System.Windows.Forms.TextBox();
+            this.user = new System.Windows.Forms.TextBox();
+            this.Password = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -56,14 +56,14 @@
             this.lab_USUARIO.TabIndex = 1;
             this.lab_USUARIO.Text = "USUARIO";
             // 
-            // lab_contraseña
+            // lab_CONTRASEÑA
             // 
-            this.lab_contraseña.AutoSize = true;
-            this.lab_contraseña.Location = new System.Drawing.Point(331, 316);
-            this.lab_contraseña.Name = "lab_contraseña";
-            this.lab_contraseña.Size = new System.Drawing.Size(119, 20);
-            this.lab_contraseña.TabIndex = 2;
-            this.lab_contraseña.Text = "CONTRASEÑA";
+            this.lab_CONTRASEÑA.AutoSize = true;
+            this.lab_CONTRASEÑA.Location = new System.Drawing.Point(331, 316);
+            this.lab_CONTRASEÑA.Name = "lab_CONTRASEÑA";
+            this.lab_CONTRASEÑA.Size = new System.Drawing.Size(119, 20);
+            this.lab_CONTRASEÑA.TabIndex = 2;
+            this.lab_CONTRASEÑA.Text = "CONTRASEÑA";
             // 
             // but_ingresar
             // 
@@ -76,21 +76,21 @@
             this.but_ingresar.UseVisualStyleBackColor = false;
             this.but_ingresar.Click += new System.EventHandler(this.button1_Click);
             // 
-            // textBox_usuario
+            // user
             // 
-            this.textBox_usuario.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox_usuario.Location = new System.Drawing.Point(470, 258);
-            this.textBox_usuario.Name = "textBox_usuario";
-            this.textBox_usuario.Size = new System.Drawing.Size(203, 26);
-            this.textBox_usuario.TabIndex = 4;
+            this.user.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.user.Location = new System.Drawing.Point(470, 258);
+            this.user.Name = "user";
+            this.user.Size = new System.Drawing.Size(203, 26);
+            this.user.TabIndex = 4;
             // 
-            // textBox_contraseña
+            // Password
             // 
-            this.textBox_contraseña.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.textBox_contraseña.Location = new System.Drawing.Point(470, 316);
-            this.textBox_contraseña.Name = "textBox_contraseña";
-            this.textBox_contraseña.Size = new System.Drawing.Size(203, 26);
-            this.textBox_contraseña.TabIndex = 5;
+            this.Password.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.Password.Location = new System.Drawing.Point(470, 316);
+            this.Password.Name = "Password";
+            this.Password.Size = new System.Drawing.Size(203, 26);
+            this.Password.TabIndex = 5;
             // 
             // pictureBox1
             // 
@@ -103,22 +103,22 @@
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             // 
-            // Form_acceso
+            // Usuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleTurquoise;
             this.ClientSize = new System.Drawing.Size(1078, 644);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.textBox_contraseña);
-            this.Controls.Add(this.textBox_usuario);
+            this.Controls.Add(this.Password);
+            this.Controls.Add(this.user);
             this.Controls.Add(this.but_ingresar);
-            this.Controls.Add(this.lab_contraseña);
+            this.Controls.Add(this.lab_CONTRASEÑA);
             this.Controls.Add(this.lab_USUARIO);
             this.Controls.Add(this.lab_restaurante);
             this.MaximumSize = new System.Drawing.Size(1100, 700);
             this.MinimumSize = new System.Drawing.Size(1100, 700);
-            this.Name = "Form_acceso";
+            this.Name = "Usuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ACCESO";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -132,10 +132,10 @@
 
         private System.Windows.Forms.Label lab_restaurante;
         private System.Windows.Forms.Label lab_USUARIO;
-        private System.Windows.Forms.Label lab_contraseña;
+        private System.Windows.Forms.Label lab_CONTRASEÑA;
         private System.Windows.Forms.Button but_ingresar;
-        private System.Windows.Forms.TextBox textBox_usuario;
-        private System.Windows.Forms.TextBox textBox_contraseña;
+        private System.Windows.Forms.TextBox user;
+        private System.Windows.Forms.TextBox Password;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
